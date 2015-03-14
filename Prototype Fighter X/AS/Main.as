@@ -6,7 +6,7 @@
 	
 	public class Main extends MovieClip
 	{
-		var _screenManager:ScreenManager;
+		private var _screenManager:ScreenManager;
 		
 		public function Main()
 		{
@@ -17,6 +17,11 @@
 		public function Update(event:Event):void
 		{
 			_screenManager.Update();
+		}
+		
+		public function GetScreen():int
+		{
+			return _screenManager.GetScreen();
 		}
 	}
 }

@@ -1,8 +1,8 @@
 ﻿package
 {
-	public class Eventhandler
+	public class ObjectManager
 	{
-		public function Eventhandler()
+		public function ObjectManager()
 		{
 			
 		}
